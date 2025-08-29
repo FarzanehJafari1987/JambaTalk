@@ -1,7 +1,7 @@
-# JambaTalk ![Project Page](https://farzanehjafari1987.github.io/JambaTalk.github.io/)
+# JambaTalk: Speech-driven 3D Talking Head Generation based on a Hybrid Transformer-Mamba Model
 ![Jambatalk release](./JambaTalk_Architecture.png)
 
-# JambaTalk: Speech-driven 3D Talking Head Generation based on a Hybrid Transformer-Mamba Model
+
 
 Official PyTorch implementation for **JambaTalk**, a framework for generating realistic 3D talking faces.
 
