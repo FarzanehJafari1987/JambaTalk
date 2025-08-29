@@ -28,3 +28,5 @@ This project builds on ideas and resources from:
 - [VOCASET](https://voca.is.tue.mpg.de/)
 - [BIWI](https://github.com/Doubiiu/CodeTalker/blob/main/BIWI/README.md)
 - [MPI-IS/mesh](https://github.com/MPI-IS/mesh)
+- [Mamba](https://github.com/state-spaces/mamba)
+- [Jamba](https://github.com/kyegomez/Jamba)
