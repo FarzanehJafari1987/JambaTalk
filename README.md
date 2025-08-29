@@ -17,7 +17,7 @@ If you use JambaTalk in research, please cite:
   year={2025},
   note={}
 }
-
+```
 
 ## **Acknowledgements**
 This project builds on ideas and resources from:
