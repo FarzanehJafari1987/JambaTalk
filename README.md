@@ -15,10 +15,9 @@ If you use JambaTalk in research, please cite:
   title={JambaTalk: Speech-driven 3D Talking Head Generation based on a Hybrid Transformer-Mamba Model},
   author={Farzaneh Jafari; Stefano Berretti; Anup Basu},
   year={2025},
-  note={}
+  note={arXiv preprint arXiv:2408.01627}
 }
 ```
-
 ## **Acknowledgements**
 This project builds on ideas and resources from:
 - [FaceFormer](https://github.com/EvelynFan/FaceFormer)
