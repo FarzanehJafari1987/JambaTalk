@@ -1,7 +1,7 @@
 # JambaTalk: Speech-driven 3D Talking Head Generation based on a Hybrid Transformer-Mamba Model
 Farzaneh Jafari, Stefano Berretti, Anup Basu
 
-[[Paper]](https://arxiv.org/pdf/2408.01627)|[[Project Page]](https://farzanehjafari1987.github.io/JambaTalk.github.io/)|[License]()
+[[Paper]](https://arxiv.org/pdf/2408.01627)|[[Project Page]](https://farzanehjafari1987.github.io/JambaTalk.github.io/)|[[License]](https://github.com/FarzanehJafari1987/JambaTalk/blob/main/LICENSE)
 
 ![Jambatalk release](./JambaTalk_Architecture.png)
 
