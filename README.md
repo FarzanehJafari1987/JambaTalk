@@ -1,5 +1,5 @@
 # JambaTalk
-![Jambatalk release](./media/jamba_logo.png)
+![Jambatalk release](./media/JambaTalk_Architecture.png)
 
 # JambaTalk: Talking Face Generation Framework
 
