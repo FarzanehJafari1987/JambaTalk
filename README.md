@@ -5,8 +5,6 @@ Farzaneh Jafari, Stefano Berretti, Anup Basu
 
 ![Jambatalk release](./JambaTalk_Architecture.png)
 
-Official PyTorch implementation for **JambaTalk**, a framework for generating realistic 3D talking faces.
-
 ---
 
 ## **Citation**
