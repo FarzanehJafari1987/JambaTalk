@@ -13,8 +13,8 @@ If you use JambaTalk in research, please cite:
 ```
 @misc{jambatalk2025Jafari,
   title={JambaTalk: Speech-driven 3D Talking Head Generation based on a Hybrid Transformer-Mamba Model},
-  author={Farzaneh Jafari; Stefano Berretti; Anup Basu},
-  year={2025},
+  author={Farzaneh Jafari, Stefano Berretti, Anup Basu},
+  year={2024},
   note={arXiv preprint arXiv:2408.01627}
 }
 ```
