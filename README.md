@@ -1,7 +1,7 @@
-# JambaTalk
+# JambaTalk ![Project Page](https://farzanehjafari1987.github.io/JambaTalk.github.io/)
 ![Jambatalk release](./JambaTalk_Architecture.png)
 
-# JambaTalk: Talking Face Generation Framework
+# JambaTalk: Speech-driven 3D Talking Head Generation based on a Hybrid Transformer-Mamba Model
 
 Official PyTorch implementation for **JambaTalk**, a framework for generating realistic 3D talking faces.
 
@@ -23,9 +23,9 @@ If you use JambaTalk in research, please cite:
 This project builds on ideas and resources from:
 - [FaceFormer](https://github.com/EvelynFan/FaceFormer)
 - [CodeTalker](https://github.com/Doubiiu/CodeTalker)
-- [FaceDiffuser]()
-- [SelfTalk]()
+- [FaceDiffuser](https://github.com/uuembodiedsocialai/FaceDiffuser)
+- [SelfTalk](https://github.com/psyai-net/SelfTalk_release/tree/main)
 - [FaceXHuBERT](https://github.com/galib360/FaceXHuBERT)
 - [VOCASET](https://voca.is.tue.mpg.de/)
-- [BIWI]()
+- [BIWI](https://github.com/Doubiiu/CodeTalker/blob/main/BIWI/README.md)
 - [MPI-IS/mesh](https://github.com/MPI-IS/mesh)
