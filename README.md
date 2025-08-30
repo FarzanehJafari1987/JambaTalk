@@ -11,7 +11,7 @@ Farzaneh Jafari, Stefano Berretti, Anup Basu
 If you use JambaTalk in research, please cite:
 
 ```
-@misc{jambatalk2025Jafari,
+@misc{jambatalk2024Jafari,
   title={JambaTalk: Speech-driven 3D Talking Head Generation based on a Hybrid Transformer-Mamba Model},
   author={Farzaneh Jafari, Stefano Berretti, Anup Basu},
   year={2024},
