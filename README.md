@@ -15,6 +15,28 @@ shapes.
 
 ---
 
+## **Environment**
+
+- Linux
+- Python 3.6+
+- Pytorch 1.12.1
+- CUDA 11.3
+- ffmpeg
+- [MPI-IS/mesh](https://github.com/MPI-IS/mesh)
+
+Clone the repo:
+  ```bash
+  git clone https://github.com/psyai-net/SelfTalk_release.git
+  cd SelfTalk_release
+  ```  
+Create conda environment:
+```bash
+conda create -n selftalk python=3.8.8
+conda activate selftalk
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+pip install -r requirements.txt
+```
+
 ## **Citation**
 If you use JambaTalk in research, please cite:
 
