@@ -5,7 +5,7 @@ Farzaneh Jafari, Stefano Berretti, Anup Basu
 
 ![Jambatalk release](./JambaTalk.png)
 
-In recent years, the talking head generation has become a focal point for researchers. Considerable effort is being made to refine lip-sync motion, capture expressive facial expressions, generate natural head poses, and achieve high video quality. However, no single model has yet achieved equivalence across all these metrics. This paper aims to animate a 3D face using Jamba, a hybrid Transformer-Mamba model. Mamba, a pioneering Structured State Space Model (SSM) architecture, was developed to overcome the limitations of conventional Transformer architectures, particularly in handling long sequences. This challenge has constrained traditional models. Jamba merges the advantages of both the Transformer and Mamba approaches, providing a holistic solution. Based on the foundational Jamba block, we present JambaTalk to enhance motion variety and speed through multimodal integration. Extensive experiments reveal that our method achieves performance comparable to or superior to state-of-the-art models.
+
 ---
 
 ## **Citation**
