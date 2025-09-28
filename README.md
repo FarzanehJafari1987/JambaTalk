@@ -64,19 +64,21 @@ Organize by placing 'faces' and 'rigid_scans' directories in `BIWI`, while movin
 
 ---
 
-## **Demo**
+## **Running the Demo**
 
-Download pretrained models:  
+First, obtain the pre-trained model weights:
 - [BIWI.pth]()  
 - [VOCASET.pth]()  
 
-Run demo with your audio:
-```bash
-python demo_voca.py --wav_path "demo/wav/test.wav" --subject FaceTalk_170908_03277_TA
+For BIWI mesh animation, execute the following command to generate facial animations using BIWI topology:
+```
 python demo_BIWI.py --wav_path "demo/wav/test.wav" --subject M1
 ```
-
-Results will be saved in `demo/output/`. You can also put your own test audio file (.wav format) under the `demo/wav` folder and specify the argument `--wav_path "demo/wav/test.wav"` accordingly.
+For FLAME topology animation, use this command to create animations with FLAME mesh structure:
+```
+python demo_voca.py --wav_path "demo/wav/test.wav" --subject FaceTalk_170908_03277_TA
+```
+The system will automatically create rendered video outputs within the demo/output directory. For custom testing, place your audio files (.wav format) in the demo/wav directory and update the --wav_path "demo/wav/test.wav" parameter to reference your specific file.
 
 ---
 
