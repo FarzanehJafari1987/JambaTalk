@@ -71,7 +71,7 @@ python demo_voca.py --wav_path "demo/wav/test.wav" --subject FaceTalk_170908_032
 python demo_BIWI.py --wav_path "demo/wav/test.wav" --subject M1
 ```
 
-Results will be saved in `demo/output/`.
+Results will be saved in `demo/output/`. You can also put your own test audio file (.wav format) under the `demo/wav` folder and specify the argument `--wav_path "demo/wav/test.wav"` accordingly.
 
 ---
 
