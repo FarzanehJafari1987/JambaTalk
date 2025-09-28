@@ -67,8 +67,8 @@ Organize by placing 'faces' and 'rigid_scans' directories in `BIWI`, while movin
 ## **Running the Demo**
 
 First, obtain the pre-trained model weights:
-- [BIWI.pth]()  
-- [VOCASET.pth]()  
+- [biwi.pth]()  
+- [vocaset.pth]()  
 
 For BIWI mesh animation, execute the following command to generate facial animations using BIWI topology:
 ```
