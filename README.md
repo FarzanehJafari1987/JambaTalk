@@ -52,9 +52,9 @@ cd vocaset
 python process_voca_data.py
 ```
 
-### BIWI_6
+### BIWI
 
-Follow the [`BIWI/README.md`](BIWI/README.md) to preprocess BIWI dataset and put .npy/.wav files into `BIWI/vertices_npy` and `BIWI/wav`, and the `templates.pkl` into `BIWI/`.
+Follow the [`BIWI/README.md`](BIWI/README.md) to preprocess the BIWI dataset and put .npy/.wav files into `BIWI/vertices_npy` and `BIWI/wav`, and the `templates.pkl` into `BIWI/`.
 
 ---
 
