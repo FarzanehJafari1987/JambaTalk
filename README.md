@@ -25,7 +25,7 @@ shapes.
 - mamba_ssm
 - [MPI-IS/mesh](https://github.com/MPI-IS/mesh)
 
-### Setup
+## Setup
 
 Clone the repository:
 ```bash
