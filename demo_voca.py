@@ -1,3 +1,4 @@
+# borrowed from https://github.com/psyai-net/SelfTalk_release
 import numpy as np
 import librosa
 import os, argparse, pickle
