@@ -26,7 +26,7 @@ shapes.
 
 ### Setup
 
-Clone the repo:
+Clone the repository:
 ```bash
 git clone https://github.com/jambatalk/JambaTalk_release.git
 cd JambaTalk_release
