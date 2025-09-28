@@ -18,7 +18,7 @@ shapes.
 ## **Environment Requirements**
 
 - Linux or macOS (Windows not fully tested)
-- Python 3.8+
+- Python 3.9+
 - PyTorch 1.12.1
 - CUDA 11.3+
 - ffmpeg
@@ -55,6 +55,8 @@ python process_voca_data.py
 ### BIWI
 
 Follow the [`BIWI/README.md`](BIWI/README.md) to preprocess BIWI dataset and put .npy/.wav files into `BIWI/vertices_npy` and `BIWI/wav`, and the `templates.pkl` into `BIWI/`.
+
+---
 
 ## **Citation**
 If you use JambaTalk in research, please cite:
