@@ -3,7 +3,7 @@ Farzaneh Jafari, Stefano Berretti, Anup Basu
 
 [[Paper]](https://arxiv.org/pdf/2408.01627)|[[Project Page]](https://farzanehjafari1987.github.io/JambaTalk.github.io/)|[[License]](https://github.com/FarzanehJafari1987/JambaTalk/blob/main/LICENSE)
 
-![Jambatalk release](./JambaTalk.png)
+![Jambatalk release](./media/JambaTalk.png)
 The Wav2Vec 2.0 model is used to extract features from the input speech,
 with the encoder initialized using pre-trained weights from the original model [5]. These encoded features are
 passed to the JambaTalk decoder, which generates a sequence of animated 3D face meshes. The Transformer
