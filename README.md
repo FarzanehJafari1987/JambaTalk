@@ -39,7 +39,7 @@ conda activate jambatalk
 
 Install dependencies:
 ```bash
-pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
 ---
