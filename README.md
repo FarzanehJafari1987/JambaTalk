@@ -74,6 +74,25 @@ Results will be saved in `demo/output/`.
 
 ---
 
+## **Training and Testing**
+
+We provide training and testing scripts for both **VOCASET** and **BIWI** datasets.  
+See detailed commands in [`TRAINING_GUIDE.md`](TRAINING_GUIDE.md).
+
+---
+
+## **Using Your Own Dataset**
+
+1. Create `<dataset_dir>` inside the project.  
+2. Place `.npy` vertices into `<dataset_dir>/vertices_npy` and `.wav` audio files into `<dataset_dir>/wav`.  
+3. Save subject templates into `<dataset_dir>/templates.pkl` and at least one `.ply` template in `<dataset_dir>/templates/`.  
+4. Train with:
+   ```bash
+   python main.py --dataset <dataset_dir> --vertice_dim <num_vertices*3>
+   ```
+
+---
+
 ## **Citation**
 If you use JambaTalk in research, please cite:
 
