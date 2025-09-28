@@ -61,8 +61,8 @@ Follow the [`BIWI/README.md`](BIWI/README.md) to preprocess the BIWI dataset and
 ## **Demo**
 
 Download pretrained models:  
-- [BIWI.pth](https://drive.google.com/file/d/1ZGdEVcLa3W0SLMGXOYOJlxikHALhqQ7s/view?usp=sharing)  
-- [VOCASET.pth](https://drive.google.com/file/d/1iwxw4snYndoip2u2Iwe7h-rfPhVJRm2U/view?usp=sharing)  
+- [BIWI.pth]()  
+- [VOCASET.pth]()  
 
 Run demo with your audio:
 ```bash
