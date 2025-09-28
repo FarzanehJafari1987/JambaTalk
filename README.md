@@ -116,3 +116,8 @@ This project builds on ideas and resources from:
 - [MPI-IS/mesh](https://github.com/MPI-IS/mesh)
 - [Mamba](https://github.com/state-spaces/mamba)
 - [Jamba](https://github.com/kyegomez/Jamba)
+
+---
+
+## **License**
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. See [LICENSE](LICENSE).
