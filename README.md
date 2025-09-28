@@ -58,6 +58,22 @@ Follow the [`BIWI/README.md`](BIWI/README.md) to preprocess the BIWI dataset and
 
 ---
 
+## **Demo**
+
+Download pretrained models:  
+- [BIWI.pth](https://drive.google.com/file/d/1ZGdEVcLa3W0SLMGXOYOJlxikHALhqQ7s/view?usp=sharing)  
+- [VOCASET.pth](https://drive.google.com/file/d/1iwxw4snYndoip2u2Iwe7h-rfPhVJRm2U/view?usp=sharing)  
+
+Run demo with your audio:
+```bash
+python demo_voca.py --wav_path "demo/wav/test.wav" --subject FaceTalk_170908_03277_TA
+python demo_BIWI.py --wav_path "demo/wav/test.wav" --subject M1
+```
+
+Results will be saved in `demo/output/`.
+
+---
+
 ## **Citation**
 If you use JambaTalk in research, please cite:
 
