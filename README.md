@@ -19,8 +19,8 @@ shapes.
 
 - Linux or macOS (Windows not fully tested)
 - Python 3.9+
-- PyTorch 1.12.1
-- CUDA 11.3+
+- PyTorch 2.4.1
+- CUDA 11.8
 - ffmpeg
 - [MPI-IS/mesh](https://github.com/MPI-IS/mesh)
 
@@ -46,13 +46,13 @@ pip install -r requirements.txt
 
 ## **Dataset**
 ### VOCASET
-Request the VOCASET data from [https://voca.is.tue.mpg.de/](https://voca.is.tue.mpg.de/). Place the downloaded files `data_verts.npy`, `raw_audio_fixed.pkl`, `templates.pkl` and `subj_seq_to_idx.pkl` in the folder `vocaset/`. Download "FLAME_sample.ply" from [voca](https://github.com/TimoBolkart/voca/tree/master/template) and put it in `vocaset/`. Read the vertices/audio data and convert them to .npy/.wav files stored in `vocaset/vertices_npy` and `vocaset/wav`:
+Request the VOCASET data from [https://voca.is.tue.mpg.de/](https://voca.is.tue.mpg.de/). Place the downloaded files `data_verts.npy`, `raw_audio_fixed.pkl`, `templates.pkl`, and `subj_seq_to_idx.pkl` in the folder `vocaset/`. Download "FLAME_sample.ply" from [voca](https://github.com/TimoBolkart/voca/tree/master/template) and put it in `vocaset/`. Read the vertices/audio data and convert them to .npy/.wav files stored in `vocaset/vertices_npy` and `vocaset/wav`:
 ```
 cd vocaset
 python process_voca_data.py
 ```
 
-### BIWI
+### BIWI_6
 
 Follow the [`BIWI/README.md`](BIWI/README.md) to preprocess BIWI dataset and put .npy/.wav files into `BIWI/vertices_npy` and `BIWI/wav`, and the `templates.pkl` into `BIWI/`.
 
