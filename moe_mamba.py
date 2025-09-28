@@ -1,5 +1,4 @@
-# https://github.com/kyegomez/Jamba
-
+# Borrowed from https://github.com/kyegomez/Jamba
 from torch import Tensor, nn
 from zeta import MambaBlock
 from zeta.nn.modules.simple_rmsnorm import SimpleRMSNorm
