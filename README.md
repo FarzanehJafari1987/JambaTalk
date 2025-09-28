@@ -22,6 +22,7 @@ shapes.
 - PyTorch 2.4.1
 - CUDA 11.8
 - ffmpeg
+- Mamba
 - [MPI-IS/mesh](https://github.com/MPI-IS/mesh)
 
 ### Setup
