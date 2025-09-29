@@ -61,6 +61,7 @@ Acquire the BIWI dataset from the [Biwi 3D Audiovisual Corpus of Affective Commu
 - Audio recordings (.wav format) stored in the 'audio' folder
 
 Organize by placing 'faces' and 'rigid_scans' directories in `BIWI`, while moving all audio files to `BIWI/wav`.
+Process the geometric mesh data and transform it into `.npy` format for storage in `BIWI/vertices_npy`.
 
 ---
 
@@ -87,7 +88,7 @@ The system will automatically create rendered video outputs within the demo/outp
 ## Model Training and Evaluation
 Execute the complete training pipeline on VOCASET and generate evaluation metrics using the test dataset:
 ```bash
-python main.py --dataset vocaset --vertice_dim 15069 --feature_dim 64 --period 30 --train_subjects "FaceTalk_170728_03272_TA FaceTalk_170904_00128_TA FaceTalk_170725_00137_TA FaceTalk_170915_00223_TA FaceTalk_170811_03274_TA FaceTalk_170913_03279_TA FaceTalk_170904_03276_TA FaceTalk_170912_03278_TA" --val_subjects "FaceTalk_170811_03275_TA FaceTalk_170908_03277_TA" --test_subjects "FaceTalk_170809_00138_TA FaceTalk_170731_00024_TA"
+python main.py --dataset vocaset --vertice_dim 15069 --feature_dim 512 --period 30 --train_subjects "FaceTalk_170728_03272_TA FaceTalk_170904_00128_TA FaceTalk_170725_00137_TA FaceTalk_170915_00223_TA FaceTalk_170811_03274_TA FaceTalk_170913_03279_TA FaceTalk_170904_03276_TA FaceTalk_170912_03278_TA" --val_subjects "FaceTalk_170811_03275_TA FaceTalk_170908_03277_TA" --test_subjects "FaceTalk_170809_00138_TA FaceTalk_170731_00024_TA"
 ```
 Output files, including evaluation metrics and trained model checkpoints, will be stored in `vocaset/result` and `vocaset/save`, respectively.
 
@@ -100,15 +101,33 @@ The generated visualizations will be available in the `vocaset/output` directory
 
 ---
 
-## **Using Your Own Dataset**
+## **BIWI Model Training and Evaluation**
 
-1. Create `<dataset_dir>` inside the project.  
-2. Place `.npy` vertices into `<dataset_dir>/vertices_npy` and `.wav` audio files into `<dataset_dir>/wav`.  
-3. Save subject templates into `<dataset_dir>/templates.pkl` and at least one `.ply` template in `<dataset_dir>/templates/`.  
-4. Train with:
-   ```bash
-   python main.py --dataset <dataset_dir> --vertice_dim <num_vertices*3>
-   ```
+## Model Training and Assessment
+Execute the training workflow on the BIWI dataset and generate performance results using the evaluation subset:
+```bash
+python main.py --dataset BIWI --vertice_dim 11685 --feature_dim 1024 --period 25 --train_subjects "F2 F3 F4 M3 M4 M5" --val_subjects "F2 F3 F4 M3 M4 M5" --test_subjects "F1 F5 F6 F7 F8 M1 M2 M6"
+```
+Performance metrics will be stored in the `BIWI/result` directory, while model checkpoints will be preserved in the `BIWI/save` directory.
+
+## Output Visualization
+Create visual representations of the model predictions:
+```bash
+python render.py --dataset BIWI --vertice_dim 70110 --fps 25
+```
+Generated video content will be accessible in the `BIWI/output` directory.
+
+---
+
+### **Custom Dataset Integration**
+
+Establish a `<dataset_dir>` folder within the project structure.
+Organize your data files by placing vertex data (.npy format) in `<dataset_dir>/vertices_npy` and audio recordings (.wav format) in `<dataset_dir>/wav`.
+Store subject template information in `<dataset_dir>/templates.pkl` and include at least one mesh template (.ply format) within `<dataset_dir>/templates/`.
+Launch the training process using:
+```bash
+python main.py --dataset <dataset_dir> --vertice_dim <num_vertices*3>
+```
 
 ---
 
