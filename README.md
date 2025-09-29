@@ -113,7 +113,7 @@ Performance metrics will be stored in the `BIWI/result` directory, while model c
 ## Output Visualization
 Create visual representations of the model predictions:
 ```bash
-python render.py --dataset BIWI --vertice_dim 70110 --fps 25
+python render.py --dataset BIWI --vertice_dim 11685 --fps 25
 ```
 Generated video content will be accessible in the `BIWI/output` directory.
 
