@@ -68,8 +68,8 @@ Process the geometric mesh data and transform it into `.npy` format for storage 
 ## **Running the Demo**
 
 First, obtain the pre-trained model weights:
-- [biwi.pth]()  
-- [vocaset.pth]()  
+- [biwi.pth](https://drive.google.com/drive/folders/1wEOe26OWXnvlRiNxSZvYoHLYsNP1bmXR)  
+- [vocaset.pth](https://drive.google.com/drive/folders/1LAgtaTZ9yjY0h26ozhWP8hA4wj422aeh)  
 
 For BIWI mesh animation, execute the following command to generate facial animations using BIWI topology:
 ```
