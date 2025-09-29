@@ -82,10 +82,21 @@ The system will automatically create rendered video outputs within the demo/outp
 
 ---
 
-## **Training and Testing**
+## **VOCASET Model Training and Evaluation**
 
-We provide training and testing scripts for both **VOCASET** and **BIWI** datasets.  
-See detailed commands in [`TRAINING_GUIDE.md`](TRAINING_GUIDE.md).
+## Model Training and Evaluation
+Execute the complete training pipeline on VOCASET and generate evaluation metrics using the test dataset:
+```bash
+python main.py --dataset vocaset --vertice_dim 15069 --feature_dim 64 --period 30 --train_subjects "FaceTalk_170728_03272_TA FaceTalk_170904_00128_TA FaceTalk_170725_00137_TA FaceTalk_170915_00223_TA FaceTalk_170811_03274_TA FaceTalk_170913_03279_TA FaceTalk_170904_03276_TA FaceTalk_170912_03278_TA" --val_subjects "FaceTalk_170811_03275_TA FaceTalk_170908_03277_TA" --test_subjects "FaceTalk_170809_00138_TA FaceTalk_170731_00024_TA"
+```
+Output files, including evaluation metrics and trained model checkpoints, will be stored in `vocaset/result` and `vocaset/save`, respectively.
+
+## Result Rendering
+Generate visual outputs from the trained model:
+```bash
+python render.py --dataset vocaset --vertice_dim 15069 --fps 30
+```
+The generated visualizations will be available in the `vocaset/output` directory.
 
 ---
 
