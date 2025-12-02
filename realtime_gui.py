@@ -1367,7 +1367,7 @@ def parse_args():
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--device", type=str, default="cuda")
-    parser.add_argument("--model_path", type=str, default="BIWI/save_Nov_22_2025_1024_11_22_21_05/100_model.pth")
+    parser.add_argument("--model_path", type=str, default="BIWI/biwi.pth")
     parser.add_argument("--template_path", type=str, default="BIWI/templates.pkl")
     parser.add_argument("--subject", type=str, default="F5")
     parser.add_argument("--render_template_path", type=str, default="BIWI/templates_ply/M6.ply")
