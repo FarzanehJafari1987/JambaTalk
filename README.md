@@ -90,12 +90,12 @@ The system will automatically create rendered video outputs within the demo/outp
 A PyQt5-based real-time 3D talking-face application powered by JambaTalk, PyTorch, Wav2Vec2, and a fully interactive GUI.
 The app supports:
 
-✔ Live microphone input
-✔ Audio-file input
-✔ Real-time 3D face rendering
-✔ Real-time audio playback
-✔ Video + audio synchronized recording
-✔ Beautiful, modern GUI
+- ✔ Live microphone input
+- ✔ Audio-file input
+- ✔ Real-time 3D face rendering
+- ✔ Real-time audio playback
+- ✔ Video + audio synchronized recording
+- ✔ Beautiful, modern GUI
 ```
 python run.py --model_path biwi.pth --template_path template.pkl --render_template_path M6.ply --subject F5 --device cuda --fps 30
 ```
