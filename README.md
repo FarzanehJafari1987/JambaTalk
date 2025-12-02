@@ -1,5 +1,5 @@
 # JambaTalk: Speech-driven 3D Talking Head Generation based on a Hybrid Transformer-Mamba Model
-### [ACM Transactions on Multimedia Computing, Communications, and Applications]
+### [ACM Transactions on Multimedia Computing, Communications, and Applications](https://dl.acm.org/journal/tomm)
 
 Farzaneh Jafari, Stefano Berretti, Anup Basu
 
