@@ -95,7 +95,6 @@ The app supports:
 - Real-time 3D face rendering
 - Real-time audio playback
 - Video + audio synchronized recording
-- Beautiful, modern GUI
 ```
 python run.py --model_path biwi.pth --template_path template.pkl --render_template_path M6.ply --subject F5 --device cuda --fps 30
 ```
