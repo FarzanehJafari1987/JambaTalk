@@ -10,3 +10,6 @@ tensorboard==2.20.0
 einops==0.8.1
 #jamba==0.0.2
 mamba-ssm==2.2.5
+sounddevice
+PyQt5
+pyopengl
