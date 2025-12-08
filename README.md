@@ -102,14 +102,14 @@ python realtime_gui.py --model_path biwi.pth --template_path template.pkl --rend
 
 ## **VOCASET Model Training and Evaluation**
 
-## Model Training and Evaluation
+## Model Training and Assessment
 Execute the complete training pipeline on VOCASET and generate evaluation metrics using the test dataset:
 ```bash
 python main.py --dataset vocaset --vertice_dim 15069 --feature_dim 512 --period 30 --train_subjects "FaceTalk_170728_03272_TA FaceTalk_170904_00128_TA FaceTalk_170725_00137_TA FaceTalk_170915_00223_TA FaceTalk_170811_03274_TA FaceTalk_170913_03279_TA FaceTalk_170904_03276_TA FaceTalk_170912_03278_TA" --val_subjects "FaceTalk_170811_03275_TA FaceTalk_170908_03277_TA" --test_subjects "FaceTalk_170809_00138_TA FaceTalk_170731_00024_TA"
 ```
 Output files, including evaluation metrics and trained model checkpoints, will be stored in `vocaset/result` and `vocaset/save`, respectively.
 
-## Result Rendering
+## Output Visualization (Result Rendering)
 Generate visual outputs from the trained model:
 ```bash
 python render.py --dataset vocaset --vertice_dim 15069 --fps 30
@@ -127,7 +127,7 @@ python main.py --dataset BIWI --vertice_dim 11685 --feature_dim 1024 --period 25
 ```
 Performance metrics will be stored in the `BIWI/result` directory, while model checkpoints will be preserved in the `BIWI/save` directory.
 
-## Output Visualization
+## Output Visualization (Result Rendering)
 Create visual representations of the model predictions:
 ```bash
 python render.py --dataset BIWI --vertice_dim 11685 --fps 25
