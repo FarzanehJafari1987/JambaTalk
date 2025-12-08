@@ -98,6 +98,7 @@ The app supports:
 ```
 python realtime_gui.py --model_path biwi.pth --template_path template.pkl --render_template_path M6.ply --subject F5 --device cuda --fps 30
 ```
+---
 
 ## **VOCASET Model Training and Evaluation**
 
