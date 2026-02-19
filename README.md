@@ -152,7 +152,7 @@ python main.py --dataset <dataset_dir> --vertice_dim <num_vertices*3>
 If you use JambaTalk in research, please cite:
 
 ```
-@misc{jambatalk2026Jafari,
+@misc{jambatalk2026jafari,
         title={JambaTalk: Speech-driven 3D Talking Head Generation based on a Hybrid Transformer-Mamba Model},
         author={Farzaneh Jafari, Stefano Berretti, Anup Basu},
         note={Transactions on Multimedia Computing, Communications, and Applications},
